@@ -16,7 +16,7 @@ Response
 “stocks”: string (E.g. “GOOG:100:$500.25”, “YHOO:200:$31.40”)
 “unvestedAmount”: float32
 ```
-2. Checking your portfolio (loss/gain)
+3. Checking your portfolio (loss/gain)
 ```
 Request
 “tradeId”: number
