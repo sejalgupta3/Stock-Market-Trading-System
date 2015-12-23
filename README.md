@@ -1,5 +1,3 @@
-<snippet>
-  <content><![CDATA[
 ###Stock Market
 It is a virtual stock trading system for whoever wants to learn how to invest in stocks.
 The system uses real-time pricing via Yahoo finance API and supports USD currency only. 
@@ -32,7 +30,4 @@ Response
 The system has 2 components: client and server.
 * server: the trading engine has JSON-RPC interface for the above features.
 * client: the JSON-RPC client takes command line input and send requests the server.
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
 
