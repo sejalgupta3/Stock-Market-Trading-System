@@ -5,6 +5,7 @@ It is a virtual stock trading system for whoever wants to learn how to invest in
 The system uses real-time pricing via Yahoo finance API and supports USD currency only. 
 ## Feautres
 The system has two features:
+
 1. Buying stockss
 ```
 Request
