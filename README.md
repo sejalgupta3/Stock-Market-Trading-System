@@ -7,8 +7,10 @@ The system uses real-time pricing via Yahoo finance API and supports USD currenc
 The system has two features:
 1)Buying stockss
 ## Request
+```
 “stockSymbolAndPercentage”: string (E.g. “GOOG:50%,YHOO:50%”)
 “budget” : float32
+```
 ## Response
 “tradeId”: number
 “stocks”: string (E.g. “GOOG:100:$500.25”, “YHOO:200:$31.40”)
