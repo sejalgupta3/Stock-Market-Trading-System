@@ -4,7 +4,7 @@ The system uses real-time pricing via Yahoo finance API and supports USD currenc
 ## Feautres
 The system has two features:
 
-1. Buying stockss
+- Buying stockss
 ```
 Request
 “stockSymbolAndPercentage”: string (E.g. “GOOG:50%,YHOO:50%”)
@@ -16,7 +16,7 @@ Response
 “stocks”: string (E.g. “GOOG:100:$500.25”, “YHOO:200:$31.40”)
 “unvestedAmount”: float32
 ```
-3. Checking your portfolio (loss/gain)
+- Checking your portfolio (loss/gain)
 ```
 Request
 “tradeId”: number
