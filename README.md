@@ -5,7 +5,7 @@ It is a virtual stock trading system for whoever wants to learn how to invest in
 The system uses real-time pricing via Yahoo finance API and supports USD currency only. 
 ## Feautres
 The system has two features:
-1)Buying stockss
+1. Buying stockss
 ```
 Request
 “stockSymbolAndPercentage”: string (E.g. “GOOG:50%,YHOO:50%”)
@@ -17,7 +17,7 @@ Response
 “stocks”: string (E.g. “GOOG:100:$500.25”, “YHOO:200:$31.40”)
 “unvestedAmount”: float32
 ```
-2)Checking your portfolio (loss/gain)
+2. Checking your portfolio (loss/gain)
 ```
 Request
 “tradeId”: number
@@ -29,8 +29,8 @@ Response
 “unvestedAmount”: float32
 ```
 The system has 2 components: client and server.
-server: the trading engine has JSON-RPC interface for the above features.
-client: the JSON-RPC client takes command line input and send requests the server.
+* server: the trading engine has JSON-RPC interface for the above features.
+* client: the JSON-RPC client takes command line input and send requests the server.
 ]]></content>
   <tabTrigger>readme</tabTrigger>
 </snippet>
