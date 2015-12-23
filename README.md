@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-# ${1:Stock Market}
+###Stock Market
 It is a virtual stock trading system for whoever wants to learn how to invest in stocks.
 The system uses real-time pricing via Yahoo finance API and supports USD currency only. 
 ## Feautres
